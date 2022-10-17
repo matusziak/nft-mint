@@ -1,0 +1,32 @@
+{
+  "emulators": {
+    "default": {
+      "serviceAccount": "testnet-account"
+    }
+  },
+  "contracts": {
+    "NFTContract": "./cadence/contracts/NFTContract.cdc"
+  },
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "testnet-account": {
+      "address": "0x12f818519cdea9dd",
+      "key": {
+        "type": "hex",
+        "index": 0,
+        "signatureAlgorithm": "ECDSA_secp256k1",
+        "hashAlgorithm": "SHA2_256",
+        "privateKey": "7cbf313d51fd790f2c8d3447966908a38f079666bcb71ba6572be0f41b1a9376"
+      }
+    }
+  },
+  "deployments": {
+    "testnet": {
+      "testnet-account": ["NFTContract"]
+    }
+  }
+}

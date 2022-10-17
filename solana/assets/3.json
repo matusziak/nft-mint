@@ -1,0 +1,19 @@
+{
+    "name": "NuFi Sword #4",
+    "symbol": "NuFiS-4",
+    "description": "Collection of NuFi powerful swords.",
+    "seller_fee_basis_points": 500,
+    "image": "3.png",
+    "attributes": [
+        {"trait_type": "attack", "value": "8"},
+        {"trait_type": "agility", "value": "1"}, 
+        {"trait_type": "strength", "value": "10"},
+        {"trait_type": "intellect", "value": "1"},
+        {"trait_type": "stamina", "value": "8"}
+    ],
+    "properties": {
+        "creators": [{"address": "tDPjM255W19kERqU3JX7tqVcTMcnmpfU1StVesosFWB", "share": 100}],
+        "files": [{"uri": "3.png", "type": "image/png"}]
+    },
+    "collection": {"name": "NuFi Swords", "family": "NuFi Swords"}
+}

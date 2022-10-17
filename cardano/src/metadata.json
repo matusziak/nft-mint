@@ -1,0 +1,15 @@
+{
+  "721": {
+    "{policy_id}": {
+      "{policy_name}": {
+        "name": "NuFI Axe #1",
+        "sha256": "",
+        "type": "png",
+        "image": "ipfs://bafkreiem3vqddfybcwh4y7hzlkqiq4gg7d7fd57srox7kafegxkljxgx5i",
+        "location": {
+          "ipfs": "ipfs://bafkreiem3vqddfybcwh4y7hzlkqiq4gg7d7fd57srox7kafegxkljxgx5i"
+        }
+      }
+    }
+  }
+}
